@@ -5,31 +5,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
-
-  <!--
-    - favicon
-  -->
+  <title>Alj Website</title>
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <!--
-    - #MAIN
-  -->
 
   <main>
 
@@ -42,17 +28,17 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+          <img src="./assets/images/Design%20sans%20titre%20(29).png" alt="" width="80">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
+          <h1 class="name" title="Abd El Kamel Alj">Abd El Kamel Alj</h1>
 
-          <p class="title">Web developer</p>
+          <p class="title">PHD Professeur</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+          <span>Voir Infos </span>
 
           <ion-icon name="chevron-down"></ion-icon>
         </button>
@@ -74,7 +60,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
+              <a href="mailto:Kamelal@gmail.com" class="contact-link">Kamelal@gmail.com</a>
             </div>
 
           </li>
@@ -86,26 +72,14 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Phone</p>
+              <p class="contact-title">Telephone</p>
 
-              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+              <a href="tel:+12133522795" class="contact-link">+212 0612474706</a>
             </div>
 
           </li>
 
-          <li class="contact-item">
 
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">June 23, 1982</time>
-            </div>
-
-          </li>
 
           <li class="contact-item">
 
@@ -114,9 +88,9 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Location</p>
+              <p class="contact-title">Adress</p>
 
-              <address>Sacramento, California, USA</address>
+              <address>Meknes , Maroc</address>
             </div>
 
           </li>
@@ -129,7 +103,7 @@
 
           <li class="social-item">
             <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
+              <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
 
@@ -141,7 +115,7 @@
 
           <li class="social-item">
             <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
+              <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
 
@@ -151,7 +125,9 @@
 
     </aside>
 
-
+    <!--
+        - # END SIDEBAR
+     -->
 
 
 
@@ -170,28 +146,44 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link  active" data-nav-link>About Me</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Recherche</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
           </li>
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
+
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
+            <button class="navbar-link" data-nav-link>Enseignement</button>
           </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Autres</button>
+          </li>
+
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
 
+
+
         </ul>
 
       </nav>
+
+      <br> <br>
 
 
 
@@ -201,116 +193,83 @@
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+      <article class="about active" data-page="about me">
 
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title">
+            A propos
+          </h2>
         </header>
 
-        <section class="about-text">
-          <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
+        <section class="about-text ">
+
+          <p class="content-card">
+
+          <strong>Abd El Kamel ALJ</strong>  <small> , Ph.D</small>
+          <br>
+          Department de Mathématique <br>
+          Faculty des Sciences Moulay Ismail <br>
+          Université Moulay Ismail, Meknes
+
+
           </p>
 
-          <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
-          </p>
-        </section>
+          <!-- Section for external profiles -->
+          <section class="external-profiles">
+            <h3>Profiles Scientifiques</h3>
+            <ul>
+              <li><a href="https://www.scopus.com/johndoe" target="_blank">Scopus Profile</a></li>
+              <li><a href="https://www.researchgate.net/profile/John_Doe" target="_blank">ResearchGate Profile</a></li>
+              <li><a href="https://scholar.google.com/citations?user=JohnDoe" target="_blank">Google Scholar Profile</a></li>
+              <!-- Add more profiles as needed -->
+            </ul>
+          </section>
 
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
-
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
-
-                <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
+          <!-- Biography section -->
+          <section class="biography">
+            <h3>Biographie</h3>
+            <p>
+              I have been working in the design and development industry for over a decade,
+              with a focus on creating innovative solutions that blend aesthetics
+              and functionality. My experience spans across various sectors,
+              where I have contributed to the success of both small businesses
+              and large corporations. I am passionate about staying updated with
+              the latest trends and technologies in the industry, and I continually
+              strive to improve my skills and knowledge.
+            </p>
+          </section>
 
         </section>
 
+        <div class="info-content">
+          <button class="form-btn cv" type="submit" data-form-btn>
+            <ion-icon name="eye-outline"></ion-icon>
+            <span>View CV</span>
+          </button>
+        </div>
+
+      </article>
+
+      <!--
+           - # END ABOUT
+      -->
+
+
+
+      <article class="about  active" data-page="recherche">
+
+        <header>
+          <h2 class="h2 article-title">Recherche</h2>
+        </header>
+
 
         <!--
-          - testimonials
+         - DOCTORATS
         -->
 
         <section class="testimonials">
 
-          <h3 class="h3 testimonials-title">Testimonials</h3>
+          <h3 class="h3 testimonials-title">Doctorats</h3>
 
           <ul class="testimonials-list has-scrollbar">
 
@@ -318,18 +277,14 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/Design%20sans%20titre%20(29).png" alt="Daniel lewis" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Nom Prenom 1</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                    description
                   </p>
                 </div>
 
@@ -340,18 +295,14 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/Design%20sans%20titre%20(29).png" alt="Jessica miller" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Nom Prenom 2</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                    description
                   </p>
                 </div>
 
@@ -362,18 +313,14 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/Design%20sans%20titre%20(29).png" alt="Emily evans" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Nom Prenom 3</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                      description
                   </p>
                 </div>
 
@@ -384,18 +331,14 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/Design%20sans%20titre%20(29).png" alt="Henry william" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Nom Prenom 4</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                    description
                   </p>
                 </div>
 
@@ -405,6 +348,168 @@
           </ul>
 
         </section>
+
+
+
+        <!--
+         - MASTERS
+       -->
+
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Masters</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Nom Prenom</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                   description
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Nom Prenom</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    description
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                      description
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Nom Prenom</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                   description
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - SUJETS
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Sujets</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Statistique</h4>
+
+                <p class="service-item-text">
+                  description
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Modélisation</h4>
+
+                <p class="service-item-text">
+                  description
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Sumulation</h4>
+
+                <p class="service-item-text">
+                  description
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Probabilté</h4>
+
+                <p class="service-item-text">
+                  description
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
 
 
         <!--
@@ -423,7 +528,7 @@
 
             <div class="modal-img-wrapper">
               <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                <img src="./assets/images/" alt="Daniel lewis" width="80" data-modal-img>
               </figure>
 
               <img src="./assets/images/icon-quote.svg" alt="quote icon">
@@ -437,11 +542,7 @@
 
               <div data-modal-text>
                 <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+
                 </p>
               </div>
 
@@ -453,50 +554,23 @@
 
 
         <!--
-          - clients
+          - Equipes
         -->
 
         <section class="clients">
 
-          <h3 class="h3 clients-title">Clients</h3>
+          <h3 class="h3 clients-title">Equipes de recherche</h3>
 
           <ul class="clients-list has-scrollbar">
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
+
             </li>
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
+
             </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
 
           </ul>
 
@@ -505,6 +579,113 @@
       </article>
 
 
+      <!--
+           - #PUBLICATIONS
+      -->
+
+      <article class="blog" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+        <!-- Section des filtres -->
+        <div class="filters">
+
+          <button class="filter-btn" data-category="all">Tous</button>
+          <button class="filter-btn" data-category="articles">Articles</button>
+          <button class="filter-btn" data-category="communications">Communications</button>
+          <button class="filter-btn" data-category="livres">Livres</button>
+          <button class="filter-btn" data-category="polycopies">Polycopies</button>
+          <button class="filter-btn" data-category="annales">Annales</button>
+
+        </div>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+            <li class="blog-post-item" data-category="articles">
+              <a href="https://www.researchgate.net/" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Article</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">May 23 2022</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">conferences in 2022</h3>
+                  <p class="blog-text">description</p>
+                </div>
+              </a>
+            </li>
+            <li class="blog-post-item" data-category="communications">
+              <a href="https://www.researchgate.net/" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Communication</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">May 23 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">conferences in 2022</h3>
+                  <p class="blog-text">description</p>
+                </div>
+              </a>
+            </li>
+            <li class="blog-post-item" data-category="livres">
+              <a href="https://www.researchgate.net/" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Livre</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">May 23 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">conferences in 2022</h3>
+                  <p class="blog-text">description</p>
+                </div>
+              </a>
+            </li>
+            <li class="blog-post-item" data-category="polycopies">
+              <a href="https://www.researchgate.net/" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Policopie</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">May 23 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">conferences in 2022</h3>
+                  <p class="blog-text">description description description description
+                    description description description description
+                    description description description description
+                    description description description description
+                    description description description description
+                    description description description description
+                  </p>
+                </div>
+              </a>
+            </li>
+
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
 
 
 
@@ -642,7 +823,7 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
+                <h5 class="h5">Saas</h5>
                 <data value="80">80%</data>
               </div>
 
@@ -655,7 +836,7 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
+                <h5 class="h5">Probabilité</h5>
                 <data value="70">70%</data>
               </div>
 
@@ -668,7 +849,7 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
+                <h5 class="h5">Langage R</h5>
                 <data value="90">90%</data>
               </div>
 
@@ -681,7 +862,7 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
+                <h5 class="h5">Latex</h5>
                 <data value="50">50%</data>
               </div>
 
@@ -702,13 +883,13 @@
 
 
       <!--
-        - #PORTFOLIO
+        - #Enseignement
       -->
 
-      <article class="portfolio" data-page="portfolio">
+      <article class="portfolio" data-page="enseignement">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Enseignement</h2>
         </header>
 
         <section class="projects">
@@ -716,21 +897,27 @@
           <ul class="filter-list">
 
             <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
+              <button class="active" data-filter-btn>Tous</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>Licence</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>Master</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>Doctorat</button>
             </li>
 
+            <li class="filter-item">
+              <button data-filter-btn>Formations supérieures</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Autres formations</button>
+            </li>
           </ul>
 
           <div class="filter-select-box">
@@ -748,51 +935,62 @@
             <ul class="select-list">
 
               <li class="select-item">
-                <button data-select-item>All</button>
+                <button data-select-item>Tous</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>Licence</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>Master</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>Doctorat</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Formations supérieures</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Autres formations</button>
               </li>
 
             </ul>
 
           </div>
 
-          <ul class="project-list">
+          <ul class="cours-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Licence">
+              <a href="./path/to/your-file.pdf" download>
 
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="arrow-down-circle-outline"></ion-icon>
+                    </div>
+
+                  <img src="./assets/images/Expose1.png" alt="finance" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
 
-                <p class="project-category">Web development</p>
+
+                <h3 class="project-title">Titre</h3>
+
+                <p class="project-category">Licence</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Master">
+              <a href="./path/to/your-file.pdf" download>
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="arrow-down-circle-outline"></ion-icon>
                   </div>
 
                   <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
@@ -800,17 +998,17 @@
 
                 <h3 class="project-title">Orizon</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Master</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Doctorat">
+              <a href="/path/to/your-file.pdf" download>
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="arrow-down-circle-outline"></ion-icon>
                   </div>
 
                   <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
@@ -818,17 +1016,17 @@
 
                 <h3 class="project-title">Fundo</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Doctorat</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Formations supérieures">
+              <a href="/path/to/your-file.pdf" download>
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="arrow-down-circle-outline"></ion-icon>
                   </div>
 
                   <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
@@ -836,17 +1034,17 @@
 
                 <h3 class="project-title">Brawlhalla</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Formation supérieures</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Autres formations">
+              <a href="./path/to/your-file.pdf" download>
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="arrow-down-circle-outline"></ion-icon>
                   </div>
 
                   <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
@@ -854,17 +1052,17 @@
 
                 <h3 class="project-title">DSM.</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Autres formations</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Licence">
+              <a href="./path/to/your-file.pdf" download>
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="arrow-down-circle-outline"></ion-icon>
                   </div>
 
                   <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
@@ -872,17 +1070,17 @@
 
                 <h3 class="project-title">MetaSpark</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Licence</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Master">
+              <a href="./path/to/your-file.pdf" download>
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="arrow-down-circle-outline"></ion-icon>
                   </div>
 
                   <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
@@ -890,17 +1088,17 @@
 
                 <h3 class="project-title">Summary</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Master</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Autres formations">
+              <a href="./path/to/your-file.pdf" download>
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="arrow-down-circle-outline"></ion-icon>
                   </div>
 
                   <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
@@ -908,17 +1106,17 @@
 
                 <h3 class="project-title">Task Manager</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Autres formations</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Master">
+              <a href="./path/to/your-file.pdf" download>
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="arrow-down-circle-outline"></ion-icon>
                   </div>
 
                   <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
@@ -926,7 +1124,7 @@
 
                 <h3 class="project-title">Arrival</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Master</p>
 
               </a>
             </li>
@@ -945,10 +1143,10 @@
         - #BLOG
       -->
 
-      <article class="blog" data-page="blog">
+      <article class="blog" data-page="autres">
 
         <header>
-          <h2 class="h2 article-title">Blog</h2>
+          <h2 class="h2 article-title">Autres activités</h2>
         </header>
 
         <section class="blog-posts">
@@ -1134,9 +1332,8 @@
 
 
       <!--
-        - #CONTACT
+        - #CONTACT SECTION
       -->
-
       <article class="contact" data-page="contact">
 
         <header>
@@ -1145,9 +1342,7 @@
 
         <section class="mapbox" data-mapbox>
           <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52997.376785435954!2d-5.579219912967004!3d33.88099814451106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda044d23bfc49d1%3A0xfbbf80a99e4cde18!2zTWVrbsOocw!5e0!3m2!1sfr!2sma!4v1724120446040!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </figure>
         </section>
 
@@ -1165,7 +1360,7 @@
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
+            <button class="form-btn" type="submit"  data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
@@ -1176,6 +1371,10 @@
 
       </article>
 
+      <!--
+      - #END CONTACT SECTION
+    -->
+
     </div>
 
   </main>
@@ -1185,14 +1384,8 @@
 
 
 
-  <!--
-    - custom js link
-  -->
+  <script src="js/swiper-bundle.min.js"></script>
   <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
