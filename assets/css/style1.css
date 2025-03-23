@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+root{
+  --eerie-black-2: hsl(240, 2%, 12%);
+}
+
+
+
+.slider-wrapper{
+  margin:  10px 40px 30px;
+  padding: 10px 15px;
+  overflow: hidden;
+}
+
+.card{
+  background: #fff;
+  border-radius: 25px;
+  box-shadow: 0 0 20px #00000030;
+  width: 250px; /* Réduire la largeur de la carte */
+  min-height: 250px;
+
+
+}
+
+.content-img,
+.content-box{
+  padding: 10px 7px; /* Réduire le padding pour s'adapter à la nouvelle taille */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content-img{
+  position: relative;
+  row-gap: 5px;
+}
+
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px 25px 25px 0;
+}
+
+.overlay::before{
+  content: '';
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background: #00039d;
+  left: 0;
+  bottom: -40px;
+}
+
+.overlay::after{
+  content: '';
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background: #ffffff;
+  left: 0;
+  bottom: -40px;
+  border-radius: 25px 0 0 0;
+}
+
+.card-img{
+  width: 100px; /* Réduire la taille de l'image */
+  height: 100px; /* Réduire la taille de l'image */
+  position: relative;
+  border-radius: 50%;
+  background: #fff;
+  padding: 3px;
+}
+
+.card-img .card-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #00039d;
+}
+
+.content-box .username{
+  font-size: 20px; /* Réduire la taille de la police */
+  font-weight: 600;
+  color: #09003a;
+  padding-bottom: 6px;
+  z-index: 1;
+}
+
+.content-box .user-profession{
+  font-size: 14px; /* Réduire la taille de la police */
+  font-weight: 500;
+  color: #09003a;
+}
+
+.social-icon{
+  padding: 20px 0; /* Réduire le padding */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px; /* Réduire l'espacement entre les icônes */
+}
+
+.social-icon li{
+  list-style: none;
+}
+
+.social-icon li a{
+  font-size: 16px; /* Réduire la taille de la police des icônes */
+  text-decoration: none;
+  color: #fff;
+  height: 28px; /* Réduire la taille de l'icône */
+  width: 28px; /* Réduire la taille de l'icône */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00039d;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.social-icon li a::before{
+  content: '';
+  position: absolute;
+  height: 40px;
+  width: 0;
+  top: 0;
+  left: 0;
+  background: #ff008c;
+  transition: 0.5s;
+  z-index: -1;
+}
+
+.social-icon li a:hover::before{
+  width: 100%;
+}
+
+.btn{
+  cursor: pointer;
+  padding: 10px 25px; /* Réduire le padding */
+  font-size: 14px; /* Réduire la taille de la police */
+  font-weight: 500;
+  border: none;
+  background: #00039d;
+  color: #fff;
+  border-radius: 6px;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn::before{
+  content: '';
+  position: absolute;
+  height: 44px;
+  width: 0;
+  top: 0;
+  left: 0;
+  background: #ff008c;
+  transition: 0.5s;
+  z-index: -1;
+}
+
+.btn:hover::before{
+  width: 100%;
+}
+
+.slider-wrapper .swiper-pagination-bullet{
+  background: #00039d;
+  height: 13px;
+  width: 13px;
+  opacity: 0.5;
+}
+
+.slider-wrapper .swiper-pagination-bullet-active{
+  opacity: 1;
+}
+
+.slider-wrapper .swiper-slide-button{
+  color: #00039d;
+  margin-top: -40px;
+  transition: 0.5s;
+}
+
+.slider-wrapper .swiper-slide-button:hover{
+  color: #ff008c;
+}
+
+.name-linkedin {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.name-linkedin a {
+  font-size: 20px;
+  color: #0e76a8; /* Couleur LinkedIn */
+  text-decoration: none;
+}
+
+.user-profession {
+  font-size: 14px; /* Taille de la description */
+  font-weight: 400;
+  color: #09003a;
+  text-align: center;
+  padding: 10px 0; /* Espacement autour de la description */
+}
+
+
+/* Responsive Code */
+@media screen and (max-width: 768px) {
+  .slider-wrapper {
+    margin: 0 20px 20px;
+    padding: 20px 30px;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Warren Bailey",
+    "image": "./assets/images/Recherche/Doctorants/Warren Bailey.png",
+    "linkedin": "https://www.linkedin.com/in/warrenbailey",
+    "profession": "WordPress Expert Lorem ipsum dolor sit amet.WordPress Expert Lorem ipsum dolor sit amet.WordPress Expert Lorem ipsum dolor sit amet.WordPress Expert Lorem ipsum dolor sit amet."
+  },
+  {
+    "name": "Jane Doe",
+    "image": "./assets/images/Recherche/Doctorants/Warren Bailey.png",
+    "linkedin": "https://www.linkedin.com/in/janedoe",
+    "profession": "Frontend Developer specializing in React.js.WordPress Expert Lorem ipsum dolor sit amet.WordPress Expert Lorem ipsum dolor sit amet."
+  },
+  {
+    "name": "Warren Bailey",
+    "image": "./assets/images/Recherche/Doctorants/Warren Bailey.png",
+    "linkedin": "https://www.linkedin.com/in/warrenbailey",
+    "profession": "WordPress Expert Lorem ipsum dolor sit amet. WordPress Expert Lorem ipsum dolor sit amet.WordPress Expert Lorem ipsum dolor sit amet."
+  },
+  {
+    "name": "Jane Doe",
+    "image": "./assets/images/Recherche/Doctorants/Warren Bailey.png",
+    "linkedin": "https://www.linkedin.com/in/janedoe",
+    "profession": "Frontend Developer specializing in React.js.WordPress Expert Lorem ipsum dolor sit amet.WordPress Expert Lorem ipsum dolor sit amet."
+  }
+
+]

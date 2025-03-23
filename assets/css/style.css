@@ -5,8 +5,6 @@
 
 :root {
 
-
-
   /* gradient */
 
   --bg-gradient-onyx: linear-gradient(
@@ -141,7 +139,11 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+/*body { background: var(--smoky-black); }*/
+
+body{
+  background-image: url("/bg.jpg");
+}
 
 
 
@@ -151,8 +153,8 @@ body { background: var(--smoky-black); }
   #REUSED STYLE
 \*-----------------------------------*/
 
-.sidebar,
-article {
+.sidebar , article
+ {
   background: var(--eerie-black-2);
   border: 1px solid var(--jet);
   border-radius: 20px;
@@ -160,6 +162,7 @@ article {
   box-shadow: var(--shadow-1);
   z-index: 1;
 }
+
 
 .separator {
   width: 100%;
@@ -261,13 +264,14 @@ article.active {
 .content-card {
   position: relative;
   background: var(--border-gradient-onyx);
-  padding: 15px;
-  padding-top: 45px;
+  padding: 45px 15px 15px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   cursor: pointer;
   z-index: 1;
 }
+
+
 
 .content-card::before {
   content: "";
@@ -287,8 +291,7 @@ article.active {
 \*-----------------------------------*/
 
 main {
-  margin: 15px 12px;
-  margin-bottom: 75px;
+  margin: 15px 12px 75px;
   min-width: 259px;
 }
 
@@ -746,12 +749,14 @@ main {
   margin-bottom: 10px;
 }
 
-.modal-content p {
+.modal-content div {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
+
+
 
 
 /**
@@ -1122,9 +1127,9 @@ main {
 }
 
 
-.blog-posts { margin-bottom: 10px; }
+.publications-posts { margin-bottom: 10px; }
 
-.blog-posts-list {
+.publications-posts-list {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
@@ -1598,7 +1603,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .project-img, .blog-banner-box { border-radius: 16px; }
 
-  .blog-posts-list { gap: 30px; }
+  .publications-posts-list { gap: 30px; }
 
   .blog-content { padding: 25px; }
 
@@ -1714,7 +1719,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   /* portfolio and blog grid */
 
-  .cours-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
+  .cours-list, .publications-posts-list { grid-template-columns: 1fr 1fr; }
 
 
 
@@ -1854,7 +1859,7 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 1250px screen
  */
 
-@media (min-width: 1250px) {
+@media (min-width: 1350px) {
 
   /**
    * RESET
@@ -1893,7 +1898,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   main {
-    max-width: 1200px;
+    max-width: 1450px;
     margin-inline: auto;
     display: flex;
     justify-content: center;
@@ -1902,9 +1907,9 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .main-content {
-    min-width: 75%;
+    min-width: 80%;
     width: 75%;
-    margin: 0;
+    margin: 0 0 0 -10px;
   }
 
 
@@ -1921,6 +1926,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 0;
     padding-top: 60px;
     z-index: 1;
+    margin-left: -10px;
   }
 
   .sidebar-info { flex-direction: column; }
@@ -1961,12 +1967,29 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .social-list { justify-content: center; }
 
+  .navbar {
+    position: absolute;
+    bottom: auto;
+    top: 0;
+    left: auto;
+    right: 0;
+    width: max-content;
+    border-radius: 0 20px;
+    padding: 0 20px;
+    box-shadow: none;
+  }
 
+  .navbar-list {
+    gap: 30px;
+    padding: 0 100px;
+  }
+
+  .navbar-link { font-weight: var(--fw-600); }
 
   /**
 	 * RESUME
 	 */
 
-  .timeline-text { max-width: 700px; }
+  .timeline-text { max-width: 900px; }
 
 }

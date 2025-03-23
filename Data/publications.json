@@ -1,0 +1,50 @@
+[
+  {
+    "category": "articles",
+    "title": "Titre de l'Article",
+    "image": "./assets/images/Publications/blog-1.jpg",
+    "date": "2022-02-23",
+    "description": "Description de l'article",
+    "link": "https://www.researchgate.net/"
+  },
+  {
+    "category": "communications",
+    "title": "Titre de la Communication",
+    "image": "./assets/images/Publications/blog-1.jpg",
+    "date": "2022-05-23",
+    "description": "Description de la communication",
+    "link": "https://www.researchgate.net/"
+  },
+  {
+    "category": "articles",
+    "title": "Titre de l'Article",
+    "image": "./assets/images/Publications/blog-1.jpg",
+    "date": "2021-02-23",
+    "description": "Description de l'article",
+    "link": "https://www.researchgate.net/"
+  },
+  {
+    "category": "livres",
+    "title": "Titre de la Communication",
+    "image": "./assets/images/Publications/blog-1.jpg",
+    "date": "2022-05-23",
+    "description": "Description de la communication",
+    "link": "https://www.researchgate.net/"
+  },
+  {
+    "category": "articles",
+    "title": "Titre de l'Article",
+    "image": "./assets/images/Publications/blog-1.jpg",
+    "date": "2024-06-23",
+    "description": "Description de l'article",
+    "link": "https://www.researchgate.net/"
+  },
+  {
+    "category": "annales",
+    "title": "Titre de la Communication",
+    "image": "./assets/images/Publications/blog-1.jpg",
+    "date": "2022-05-23",
+    "description": "Description de la communication",
+    "link": "https://www.researchgate.net/"
+  }
+]

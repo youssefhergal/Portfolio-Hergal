@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Licence",
+    "title": "Titre du Cours Licence",
+    "image": "./assets/images/Enseignement/Licence/Expose1.png",
+    "file": "./path/to/your-file.pdf"
+  },
+  {
+    "category": "Master",
+    "title": "Titre du Cours Master",
+    "image": "./assets/images/Enseignement/Licence/Expose1.png",
+    "file": "./path/to/your-file.pdf"
+  },
+  {
+    "category": "Master",
+    "title": "Titre du Cours Master",
+    "image": "./assets/images/Enseignement/Licence/Expose1.png",
+    "file": "./path/to/your-file.pdf"
+  },
+  {
+    "category": "Doctorat",
+    "title": "Titre du Cours Doctorat",
+    "image": "./assets/images/Enseignement/Licence/Expose1.png",
+    "file": "./path/to/your-file.pdf"
+  }
+]
